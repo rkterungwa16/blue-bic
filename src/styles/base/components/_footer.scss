@@ -1,0 +1,19 @@
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  width: 100%;
+  background-color:$transparent-dark;
+  color: $pure-white;
+  text-align: center;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+}
+
+.footer__text {
+  font-size: $l-size;
+  align-self: center;
+}

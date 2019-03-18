@@ -1,0 +1,205 @@
+.welcome__container {
+  display: flex;
+  position: absolute;
+  top: 6.5rem;
+  padding: 5.8rem;
+  width: 86%;
+  height: 120vh;
+  background-color: white;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.welcome-form__wrapper {
+  display: flex;
+  width: 375px;
+  height: 812px;
+  background: $background-gradient;
+}
+
+.form-bulb__wrapper {
+  width: 100%;
+  margin-top: 67px;
+  margin-left: 0px;
+  z-index: 1;
+}
+
+.form-circle__top {
+  z-index: 1;
+  position: absolute;
+}
+
+.form-bulb__img {
+  margin-top: 31px;
+  margin-left: 31px;
+  position: absolute;
+}
+
+.welcome__text {
+  margin-top: 165px;
+  position: absolute;
+  margin-left: -140px;
+  font-size: 32px;
+  line-height: normal;
+  text-align: center;
+  color: #384F7D;
+  font-weight: 600;
+}
+
+.welcome-msg__text {
+  margin-top: 220px;
+  position: absolute;
+  margin-left: -228px;
+  width: 34%;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  color: #384F7D;
+}
+
+.input-circle {
+  margin-top: 286px;
+  position: absolute;
+  margin-left: 37px;
+}
+
+.welcome-email__text {
+  margin-top: 300px;
+  position: absolute;
+  margin-left: -228px;
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(68, 89, 132, 0.3);
+}
+
+.welcome-email__input {
+  margin-top: 325px;
+  position: absolute;
+  margin-left: -228px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 315px;
+  height: 48px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-image: linear-gradient(179.24deg, #BAFB67 -5.37%, #00D23A 196.64%) 1;
+  text-indent: 25px;
+  font-size: 14px;
+  line-height: normal;
+  color: rgba(56, 79, 125, 0.65) !important;
+  font-weight: 600;
+  text-indent: 25px;
+  letter-spacing: 1.5px;
+  box-shadow: 0px 10px 15px #DDEBDC;
+}
+
+.welcome-password__text {
+  margin-top: 400px;
+  position: absolute;
+  margin-left: -228px;
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(68, 89, 132, 0.3);
+}
+
+.welcome-password__input {
+  margin-top: 425px;
+  position: absolute;
+  margin-left: -228px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 315px;
+  height: 48px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-image: linear-gradient(179.24deg, #BAFB67 -5.37%, #00D23A 196.64%) 1;
+  text-indent: 25px;
+  font-size: 14px;
+  line-height: normal;
+  color: rgba(56, 79, 125, 0.65) !important;
+  font-weight: 600;
+  text-indent: 25px;
+  letter-spacing: 1.5px;
+  box-shadow: 0px 10px 15px #DDEBDC;
+}
+
+.welcome-confirm-password__text {
+  margin-top: 500px;
+  position: absolute;
+  margin-left: -228px;
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(68, 89, 132, 0.3);
+}
+
+.welcome-confirm-password__input {
+  margin-top: 525px;
+  position: absolute;
+  margin-left: -228px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 315px;
+  height: 48px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-image: linear-gradient(357.82deg, #445984 -14.04%, rgba(68, 89, 132, 0.4) 62.94%) 1;
+  text-indent: 25px;
+  font-size: 14px;
+  line-height: normal;
+  color: rgba(56, 79, 125, 0.65);
+  font-weight: 600;
+  text-indent: 25px;
+  letter-spacing: 1.5px;
+  box-shadow: 0px 10px 15px #DDEBDC;
+}
+
+.welcome-btn__signup {
+  margin-top: 625px;
+  position: absolute;
+  margin-left: -228px;
+  background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+  border-radius: 8px;
+  border: none;
+  width: 315px;
+  height: 48px;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.redirect-login__text {
+  margin-top: 700px;
+  position: absolute;
+  margin-left: -228px;
+  width: 315px;
+  height: 48px;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  color: #445984;
+}
