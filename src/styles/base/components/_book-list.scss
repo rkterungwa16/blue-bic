@@ -1,0 +1,149 @@
+.books__reviewed--text {
+  font-size: 12px;
+  line-height: normal;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.book-list__btn {
+  position: absolute;
+  bottom: 130px;
+  margin: 0;
+}
+
+.booklist-form__wrapper--top {
+  margin-top: 160px;
+}
+
+.top-ellipse {
+  position: absolute;
+  z-index: 1;
+}
+
+.booklist__text--top {
+  position: absolute;
+  font-size: 19px;
+  line-height: normal;
+  text-align: center;
+  font-weight: 600;
+  color: #FFFFFF;
+  z-index: 3;
+  margin-top: 80px;
+  margin-left: 130px;
+}
+
+.book-list__search {
+  display: flex;
+  align-self: center;
+  margin-top: 118px;
+  position: absolute;
+  z-index: 3;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 315px;
+  height: 48px;
+  border: none;
+  text-indent: 25px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(56, 79, 125, 0.65) !important;
+  font-weight: 600;
+  text-indent: 45px;
+  letter-spacing: 1.5px;
+  box-shadow: 4px 12px 25px rgba(71, 55, 255, 0.08);
+}
+
+.search-icon {
+  position: absolute;
+  z-index: 5;
+  margin-top: 136px;
+  margin-left: 47px;
+}
+
+.book__list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.book__list--item {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  width: 315px;
+  height: 147px;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 4px 12px 25px rgba(71, 55, 255, 0.08);
+  border-radius: 8px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  justify-content: flex-start;
+}
+
+.booklist-text__wrapper {
+  margin-top: 30px;
+  display: -webkit-flex;
+  margin-left: -29px;
+}
+
+.booklist__item--text {
+  margin-left: 50px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.booklist__item--title {
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 600;
+  text-align: left;
+  color: #384F7D;
+}
+
+.booklist__item--author {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: normal;
+  color: rgba(56, 79, 125, 0.8);
+}
+
+.booklist__item--info {
+  align-items: flex-start;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.booklist__ratings {
+  margin-top: 50px;
+}
+
+// .booklist__image--wrapper {
+//   width: 45%;
+// }
+@supports (-ms-ime-align:auto) {
+  .book-list__btn {
+    bottom: 130px;
+  }
+}
+
+

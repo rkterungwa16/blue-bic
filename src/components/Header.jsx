@@ -46,6 +46,11 @@ class Header extends Component {
             to='/thank-you'
             className='header__link'
           >Thank You</Link>
+
+          <Link
+            to='/book-list'
+            className='header__link'
+          >Book List</Link>
         </div>
         <div
           className='header__icon'

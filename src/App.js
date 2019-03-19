@@ -6,6 +6,7 @@ import Welcome from './components/Welcome'
 import Review from './components/Review'
 import Read from './components/Read'
 import Thankyou from './components/Thankyou'
+import BookList from './components/BookList'
 import './styles/styles.scss'
 import 'circular-std';
 
@@ -19,6 +20,7 @@ class App extends Component {
           <Route exact path='/review-books' component={Review} />
           <Route exact path='/read-books' component={Read} />
           <Route exact path='/thank-you' component={Thankyou} />
+          <Route exact path='/book-list' component={BookList} />
         </Switch>
       </div>
     )
