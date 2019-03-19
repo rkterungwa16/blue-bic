@@ -1,5 +1,10 @@
 .review-mid__circle {
-  margin-top: 120px;
+  margin-top: 80px;
+}
+
+.review__star {
+  margin-top: 140px;
+  position: absolute;
 }
 
 .review-image__wrapper {
@@ -43,9 +48,9 @@
 }
 
 .review-btn {
-  margin-top: 80px;
+  margin-top: 95px;
   position: absolute;
-  margin-left: 121px;
+  margin-left: 100px;
   background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
   border-radius: 50%;
   border: none;
@@ -60,9 +65,9 @@
 }
 
 .review__link {
-  margin-top: 187px;
+  margin-top: 218px;
   position: absolute;
-  margin-left: -184px;
+  margin-left: -145px;
   width: 315px;
   height: 48px;
 }
@@ -77,14 +82,9 @@
   border-bottom: 2px solid #445984;
 }
 
-.review__star {
-  margin-top: 182px;
-  position: absolute;
-}
-
 .dot__wrapper {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 120px;
   margin-left: 56px;
 }
 
@@ -109,9 +109,9 @@
 }
 
 .lowerCircle {
-  position: relative;
-  margin-top: 134px;
-  margin-left: -159px;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: -185px;
 }
 
 .red-circle {
@@ -121,7 +121,7 @@
 
 .blue-circle {
   position: absolute;
-  margin-top: 194px;
+  margin-top: 135px;
   margin-left: 259px;
 }
 
@@ -135,4 +135,22 @@
   position: absolute;
   margin-top: 84px;
   margin-left: 29px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .lowerCircle {
+    position: absolute;
+    margin-top: 157px;
+    margin-left: -175px;
+  }
+
+  .review__link {
+    margin-left: -128px;
+  }
+
+  .review-btn {
+    margin-left: 90px;
+  }
 }
