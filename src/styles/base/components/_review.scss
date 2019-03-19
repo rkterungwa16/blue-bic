@@ -2,22 +2,40 @@
   margin-top: 120px;
 }
 
+.review-image__wrapper {
+  margin-top: 30px;
+  position: relative;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.review-text__wrapper {
+  margin-top: 30px;
+  position: relative;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
 .review__text {
-  margin-top: 360px;
-  position: absolute;
-  margin-left: -207px;
   font-size: 32px;
   line-height: normal;
   text-align: center;
   color: #384F7D;
   font-weight: 600;
+  display: flex;
 }
 
 .review-msg__text {
-  margin-top: 410px;
-  position: absolute;
-  margin-left: -245px;
-  width: 32%;
+  width: 78%;
+  margin-top: 10px;
   font-size: 14px;
   line-height: normal;
   text-align: center;
@@ -25,9 +43,9 @@
 }
 
 .review-btn {
-  margin-top: 555px;
+  margin-top: 103px;
   position: absolute;
-  margin-left: -15px;
+  margin-left: 121px;
   background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
   border-radius: 50%;
   border: none;
@@ -42,9 +60,9 @@
 }
 
 .review__link {
-  margin-top: 670px;
+  margin-top: 222px;
   position: absolute;
-  margin-left: -268px;
+  margin-left: -184px;
   width: 315px;
   height: 48px;
 }
@@ -61,13 +79,12 @@
 
 .review__star {
   margin-top: 182px;
-  margin-left: 60px;
   position: absolute;
 }
 
 .dot__wrapper {
   position: absolute;
-  margin-top: 239px;
+  margin-top: 123px;
   margin-left: 56px;
 }
 
@@ -92,7 +109,30 @@
 }
 
 .lowerCircle {
+  position: relative;
+  margin-top: 172px;
+  margin-left: -159px;
+}
+
+.red-circle {
   position: absolute;
-  margin-top: 604px;
-  margin-left: -295px;
+  margin-top: 1px;
+}
+
+.blue-circle {
+  position: absolute;
+  margin-top: 194px;
+  margin-left: 259px;
+}
+
+.review-blue-circle {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 212px;
+}
+
+.review-red-circle {
+  position: absolute;
+  margin-top: 84px;
+  margin-left: 29px;
 }
