@@ -83,6 +83,24 @@
   z-index: 1;
 }
 
+@-moz-document url-prefix() {
+  .input-circle {
+    margin-top: -384px;
+    position: absolute;
+    margin-left: 295px;
+    z-index: 1;
+  }
+}
+
+@supports (-ms-ime-align:auto) {
+  .input-circle {
+    margin-top: -384px;
+    position: absolute;
+    margin-left: 295px;
+    z-index: 0;
+  }
+}
+
 .form__wrapper {
   margin-top: 20px;
   -webkit-align-items: flex-start;
@@ -226,6 +244,7 @@
   line-height: normal;
   text-align: center;
   letter-spacing: 2px;
+  align-items: center;
   text-transform: uppercase;
   font-weight: 600;
   color: #FFFFFF;

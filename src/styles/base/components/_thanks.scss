@@ -55,10 +55,16 @@
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
-  -webkit-justify-content: space-around;
+  -webkit-justify-content: space-evenly;
   justify-content: space-evenly;
   -webkit-align-items: center;
   align-items: center;
+}
+
+@supports (-ms-ime-align:auto) {
+  .books__wrapper {
+    justify-content: space-around;
+  }
 }
 
 .book__interest {
