@@ -24,22 +24,43 @@
   z-index: 1;
 }
 
+.welcome-image__wrapper {
+  position: relative;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.welcome-text__wrapper {
+  margin-top: 30px;
+  position: relative;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+
 .form-circle__top {
   z-index: 1;
-  margin-top: 30px;
   position: absolute;
+  top: 61px;
 }
 
 .form-bulb__img {
-  margin-top: 31px;
-  margin-left: 31px;
+  // margin-top: 31px;
+  // margin-left: 31px;
   position: absolute;
 }
 
 .welcome__text {
-  margin-top: 165px;
-  position: absolute;
-  margin-left: -140px;
   font-size: 32px;
   line-height: normal;
   text-align: center;
@@ -48,10 +69,7 @@
 }
 
 .welcome-msg__text {
-  margin-top: 220px;
-  position: absolute;
-  margin-left: -217px;
-  width: 35%;
+  width: 80%;
   font-size: 14px;
   line-height: normal;
   text-align: center;
@@ -59,16 +77,30 @@
 }
 
 .input-circle {
-  margin-top: 286px;
+  margin-top: -195px;
   position: absolute;
-  margin-left: 37px;
+  margin-left: 295px;
+  z-index: 1;
+}
+
+.form__wrapper {
+  margin-top: 20px;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .welcome-email__text {
-  margin-top: 300px;
-  position: absolute;
-  margin-left: -228px;
+  margin-left: 30px;
+  margin-top: 10px;
   font-size: 12px;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -76,9 +108,11 @@
 }
 
 .welcome-email__input {
-  margin-top: 325px;
-  position: absolute;
-  margin-left: -228px;
+  display: flex;
+  z-index: 3;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
   background: #FFFFFF;
   border-radius: 8px;
   width: 315px;
@@ -102,10 +136,10 @@
 }
 
 .welcome-password__text {
-  margin-top: 400px;
-  position: absolute;
-  margin-left: -228px;
+  margin-left: 30px;
+  margin-top: 10px;
   font-size: 12px;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -113,9 +147,10 @@
 }
 
 .welcome-password__input {
-  margin-top: 425px;
-  position: absolute;
-  margin-left: -228px;
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
   background: #FFFFFF;
   border-radius: 8px;
   width: 315px;
@@ -139,9 +174,9 @@
 }
 
 .welcome-confirm-password__text {
-  margin-top: 500px;
-  position: absolute;
-  margin-left: -228px;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-weight: 600;
   font-size: 12px;
   line-height: normal;
   letter-spacing: 1px;
@@ -150,9 +185,10 @@
 }
 
 .welcome-confirm-password__input {
-  margin-top: 525px;
-  position: absolute;
-  margin-left: -228px;
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
   background: #FFFFFF;
   border-radius: 8px;
   width: 315px;
@@ -176,9 +212,11 @@
 }
 
 .welcome-btn__signup {
-  margin-top: 625px;
-  position: absolute;
-  margin-left: -228px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
   background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
   border-radius: 8px;
   border: none;
@@ -189,16 +227,20 @@
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-
+  font-weight: 600;
   color: #FFFFFF;
 }
 
 .redirect-login__text {
-  margin-top: 700px;
-  position: absolute;
-  margin-left: -228px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-self: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
   width: 315px;
-  height: 48px;
   font-size: 16px;
   line-height: normal;
   text-align: center;
