@@ -25,13 +25,13 @@
 }
 
 .review-btn {
-  margin-top: 565px;
+  margin-top: 555px;
   position: absolute;
-  margin-left: -263px;
+  margin-left: -15px;
   background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
-  border-radius: 8px;
+  border-radius: 50%;
   border: none;
-  width: 315px;
+  width: 48px;
   height: 48px;
   font-size: 14px;
   line-height: normal;
@@ -63,4 +63,36 @@
   margin-top: 182px;
   margin-left: 60px;
   position: absolute;
+}
+
+.dot__wrapper {
+  position: absolute;
+  margin-top: 239px;
+  margin-left: 56px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background: #8EF15C;
+  opacity: 0.25;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+  border-radius: 11111px;
+  opacity: 1;
+  width: 36px;
+  height: 12px;
+}
+
+.lowerCircle {
+  position: absolute;
+  margin-top: 604px;
+  margin-left: -295px;
 }
