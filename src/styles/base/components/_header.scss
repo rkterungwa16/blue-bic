@@ -74,7 +74,7 @@
 //   bottom: -3.7rem;
 // }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .header__center a:not(:first-child) {display: none;}
   .header__icon {
     display: flex;
@@ -83,7 +83,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .header__center.responsive {
     position: relative;
     display: flex;

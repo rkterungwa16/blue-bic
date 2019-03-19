@@ -32,24 +32,20 @@ class Header extends Component {
           <Link
             to='/'
             className='header__link'
-            style={{
-              color: this.props.currentRoute === '' ? 'black' : ''
-            }}
           >Welcome</Link>
           <Link
             to='/review-books'
             className='header__link'
-            style={{
-              color: this.props.currentRoute === 'review-books' ? 'black' : ''
-            }}
           >Review Books</Link>
           <Link
             to='/read-books'
             className='header__link'
-            style={{
-              color: this.props.currentRoute === 'read-books' ? 'black' : ''
-            }}
           >Read Books</Link>
+
+          <Link
+            to='/thank-you'
+            className='header__link'
+          >Thank You</Link>
         </div>
         <div
           className='header__icon'

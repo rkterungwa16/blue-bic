@@ -1,0 +1,88 @@
+.interests__text--top {
+  margin-top: 95px;
+  font-size: 12px;
+  line-height: normal;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.thanks-msg__text--top {
+  margin-top: 15px;
+}
+
+.bottom__menu {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  height: 74px;
+  background-color: #ffffff;
+}
+
+.form-wrapper__column {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__timeline--text {
+  font-size: 10px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: rgba(56, 79, 125, 0.45);
+}
+
+.base-line {
+  align-self: center;
+  width: 25%;
+  border: 2px solid rgba(56, 79, 125, 0.1);
+}
+
+.bottom__menu--wrapper {
+  height: 74px;
+}
+
+.books__wrapper {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  justify-content: space-evenly;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.book__interest {
+  display: flex;
+  flex-direction: column;
+}
+
+.book__interest--title {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: normal;
+  text-align: center;
+  color: #384F7D;
+}
+
+.book__interest--author {
+  margin-bottom: 20px;
+  font-size: 10px;
+  line-height: normal;
+  text-align: center;
+  color: rgba(56, 79, 125, 0.8);
+}
+
+.book__image {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}

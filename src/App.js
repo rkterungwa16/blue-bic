@@ -5,9 +5,9 @@ import Header from './components/Header'
 import Welcome from './components/Welcome'
 import Review from './components/Review'
 import Read from './components/Read'
+import Thankyou from './components/Thankyou'
 import './styles/styles.scss'
 import 'circular-std';
-import './assets/logo.png'
 
 class App extends Component {
   render () {
@@ -18,6 +18,7 @@ class App extends Component {
           <Route exact path='/' component={Welcome} />
           <Route exact path='/review-books' component={Review} />
           <Route exact path='/read-books' component={Read} />
+          <Route exact path='/thank-you' component={Thankyou} />
         </Switch>
       </div>
     )
